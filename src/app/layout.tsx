@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Space_Grotesk, Inter, DM_Sans } from "next/font/google";
+import { Space_Grotesk, Inter, DM_Sans, Poppins } from "next/font/google";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // Todos os pesos
+  style: ["normal", "italic"], // Inclui normal e itálico
+  variable: "--font-poppins", // Cria uma variável CSS para uso
+});
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
@@ -40,7 +47,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${inter.variable} ${spaceGrotesk.variable} ${dmSans.variable}`}
+      className={`${inter.variable} ${spaceGrotesk.variable} ${dmSans.variable} ${poppins.variable}`}
     >
       <body className="antialiased">{children}</body>
     </html>
