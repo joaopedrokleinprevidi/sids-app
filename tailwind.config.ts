@@ -10,6 +10,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        mobile: "minmax(300px, 520px)",
+        desktop: "minmax(300px, 520px) minmax(300px, 520px)",
+      },
+      screens: {
+        xs: "480px",
+        "3xl": "1600px",
+      },
       fontFamily: {
         sans: ["var(--font-inter)", ...fontFamily.sans],
         dmSans: ["var(--font-dm-sans)", ...fontFamily.sans],
@@ -18,12 +26,14 @@ const config: Config = {
       },
       colors: {
         pAzulProfundo: "#3F50EB",
+        pAzulProfundoHover: "#4f5ee7",
         pAzulClaro: "#92f3f9",
         pAzulClaroHover: "#6BF6FF",
         pBranco: "#FDFDFD",
         pHoverText: "#e1e1e1",
         pCinzaClaro: "#C5C5C5",
         pBlack: "#18181BE5",
+        pBlackHover: "#1A1A1DE5",
         pIconAzulClaro: "#92f3f9",
         pBackground: "#FAFAFA",
         background: "hsl(var(--background))",
