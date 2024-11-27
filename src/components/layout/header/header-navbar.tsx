@@ -9,9 +9,9 @@ import { Menu } from "lucide-react";
 import Link from "next/link";
 
 const navbarOptions = [
-  { name: "Início", href: "#" },
-  { name: "Serviços", href: "#" },
-  { name: "Consultoria gratuita", href: "#" },
+  { name: "Início", href: "#hero" },
+  { name: "Serviços", href: "#services" },
+  { name: "Consultoria gratuita", href: "#free-consultancy" },
 ];
 
 export function HeaderNavbar() {

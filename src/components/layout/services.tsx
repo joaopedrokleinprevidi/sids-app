@@ -37,7 +37,7 @@ const allServices = [
 
 export function Services() {
   return (
-    <div className="bg-pBlack text-white p-2">
+    <div className="bg-pBlack text-white p-2" id="services">
       <span className="flex items-center justify-center flex-col gap-4 mt-10">
         <h1 className="font-dmSans font-bold text-[44px]">Serviços</h1>
         <h2 className="font-dmSans font-normal text-[24px] text-center">

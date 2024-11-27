@@ -3,7 +3,10 @@ import { Button } from "../ui/shadcn/button";
 
 export function Hero() {
   return (
-    <div className="relative w-full h-[500px] xs:h-[520px] sm:h-[650px]  md:h-[800px]">
+    <div
+      className="relative w-full h-[500px] xs:h-[520px] sm:h-[650px]  md:h-[800px]"
+      id="hero"
+    >
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         alt="Ilustrate image background"

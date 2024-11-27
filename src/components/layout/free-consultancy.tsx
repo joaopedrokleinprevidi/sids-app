@@ -3,7 +3,10 @@ import { Button } from "../ui/shadcn/button";
 
 export function FreeConsultancy() {
   return (
-    <div className="py-[50px] px-[40px] xs:px-[65px] sm:px-[135px] relative bg-[#92f3f9E6] flex xl:gap-x-[20px] font-dmSans text-pBlack">
+    <div
+      className="py-[50px] px-[40px] xs:px-[65px] sm:px-[135px] relative bg-[#92f3f9E6] flex xl:gap-x-[20px] font-dmSans text-pBlack"
+      id="free-consultancy"
+    >
       <div className="flex flex-col gap-y-[35px]">
         <h1 className="text-[36px] font-bold leading-[40px]">
           Que tal uma <br /> consultoria gratuita?
