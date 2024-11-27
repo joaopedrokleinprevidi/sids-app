@@ -13,7 +13,10 @@ export function Header() {
         <HeaderNavbar />
         <Button variant="azulClaro" className="font-poppins">
           <span className="text-black">Fale conosco</span>
-          <ArrowRight className="w-4 h-4 text-pBlack" />
+          <ArrowRight
+            className=" text-pBlack"
+            style={{ width: "24px", height: "24px", color: "black" }}
+          />
         </Button>
       </div>
 

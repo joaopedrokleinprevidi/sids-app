@@ -40,7 +40,9 @@ export function Hero() {
           <span className=" text-[16px] sm:text-[20px]">
             Agendar consultoria gratuita
           </span>
-          <ArrowRight className="w-[24px] h-[24px] md:w-[32px] md:h-[32px]" />
+          <ArrowRight
+            style={{ width: "24px", height: "24px", color: "black" }}
+          />
         </Button>
       </div>
     </div>
