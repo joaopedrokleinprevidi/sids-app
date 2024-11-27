@@ -14,6 +14,7 @@ export function Footer() {
               height: "24px",
               backgroundColor: "transparent",
               color: "white",
+              cursor: "pointer",
             }}
           />
           <Facebook
@@ -22,6 +23,7 @@ export function Footer() {
               height: "24px",
               backgroundColor: "transparent",
               color: "white",
+              cursor: "pointer",
             }}
           />
           <Linkedin
@@ -30,9 +32,10 @@ export function Footer() {
               height: "24px",
               backgroundColor: "transparent",
               color: "white",
+              cursor: "pointer",
             }}
           />
-          <i className="ri-whatsapp-line text-[20px] text-white bg-transparent"></i>
+          <i className="ri-whatsapp-line text-[20px] text-white bg-transparent cursor-pointer"></i>
         </div>
         <p className="font-spaceGrotesk font-medium text-[14px] text-white">
           © Copyright 2024 SIDS. Todos os direitos reservados.
