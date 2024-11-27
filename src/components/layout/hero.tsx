@@ -10,7 +10,7 @@ export function Hero() {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         alt="Ilustrate image background"
-        src="background-hero-optimized.jpg"
+        src="background-hero-image-optimized.avif"
         className="absolute inset-0 w-full h-full object-cover"
       />
 
