@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Space_Grotesk, Inter, DM_Sans, Poppins } from "next/font/google";
 import "remixicon/fonts/remixicon.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -50,7 +51,10 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${inter.variable} ${spaceGrotesk.variable} ${dmSans.variable} ${poppins.variable} w-screen min-h-screen bg-pBackground overflow-x-hidden`}
     >
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
