@@ -37,6 +37,7 @@ export function Hero() {
           </h3>
         </span>
         <Button
+          aria-label="Agendar consultoria gratuita"
           variant="azulEscuro"
           className="mt-[40px] md:mt-[55px] h-[45px]"
         >

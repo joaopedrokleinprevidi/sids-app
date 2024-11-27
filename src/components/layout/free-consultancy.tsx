@@ -15,7 +15,11 @@ export function FreeConsultancy() {
           Está em dúvida sobre qual solução contratar? Vamos bater um <br />{" "}
           papo e encontrar a melhor opção para o seu negócio. É gratuito!
         </p>
-        <Button variant="branco" className="rounded-[16px] h-[40px] w-min">
+        <Button
+          variant="branco"
+          className="rounded-[16px] h-[40px] w-min"
+          aria-label="Agendar consultoria gratuita"
+        >
           <span className="text-[18px] font-dmSans">Agendar</span>
           <ArrowRight
             style={{ width: "24px", height: "24px", color: "black" }}

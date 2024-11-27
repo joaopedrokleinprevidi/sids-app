@@ -21,7 +21,7 @@ export function HeaderNavbar() {
       <div className="flex md:hidden items-center">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <button className="text-white">
+            <button className="text-white" aria-label="Menu principal">
               <Menu className="w-6 h-6" />
             </button>
           </DropdownMenuTrigger>

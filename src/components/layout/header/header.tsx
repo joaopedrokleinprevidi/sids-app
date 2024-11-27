@@ -11,7 +11,11 @@ export function Header() {
       {/* Encapsulamento para telas menores */}
       <div className="flex items-center gap-4 md:hidden">
         <HeaderNavbar />
-        <Button variant="azulClaro" className="font-poppins">
+        <Button
+          variant="azulClaro"
+          className="font-poppins"
+          aria-label="Fale conosco"
+        >
           <span className="text-black">Fale conosco</span>
           <ArrowRight
             className=" text-pBlack"
@@ -27,7 +31,11 @@ export function Header() {
 
       {/* Botão para telas maiores */}
       <div className="hidden md:block">
-        <Button variant="azulClaro" className="font-poppins">
+        <Button
+          variant="azulClaro"
+          className="font-poppins"
+          aria-label="Fale conosco"
+        >
           <span className="text-black">Fale conosco</span>
           <ArrowRight className="w-4 h-4 text-pBlack" />
         </Button>

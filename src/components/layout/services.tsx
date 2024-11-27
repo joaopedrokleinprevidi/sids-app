@@ -71,7 +71,11 @@ export function Services() {
           negócio?
         </p>
 
-        <Button variant="branco" className="rounded-[16px] h-[40px] w-min mb-6">
+        <Button
+          variant="branco"
+          className="rounded-[16px] h-[40px] w-min mb-6"
+          aria-label="Agendar consultoria gratuita"
+        >
           <span className="hidden sm:inline-block font-dmSans text-[20px]">
             Agendar uma consultoria{" "}
             <span className="font-semibold">gratuita</span> agora!
