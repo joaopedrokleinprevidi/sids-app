@@ -44,7 +44,7 @@ export function Hero() {
             Agendar consultoria gratuita
           </span>
           <ArrowRight
-            style={{ width: "24px", height: "24px", color: "black" }}
+            style={{ width: "24px", height: "24px", color: "white" }}
           />
         </Button>
       </div>

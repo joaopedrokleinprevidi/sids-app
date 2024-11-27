@@ -80,8 +80,14 @@ export function Services() {
             Consultoria <span className="font-semibold">gratuita</span>!
           </span>
 
-          <Rocket className="hidden sm:inline-block w-[32px] h-[32px] text-[#3F50EB]" />
-          <ArrowRight className="inline-block  sm:hidden w-[32px] h-[32px] text-[#3F50EB]" />
+          <Rocket
+            className="hidden sm:inline-block "
+            style={{ width: "32px", height: "32px", color: "#3F50EB" }}
+          />
+          <ArrowRight
+            className="inline-block  sm:hidden "
+            style={{ width: "32px", height: "32px", color: "#3F50EB" }}
+          />
         </Button>
       </div>
     </div>

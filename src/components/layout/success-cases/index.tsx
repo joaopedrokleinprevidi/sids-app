@@ -25,7 +25,7 @@ export function SuccessCases() {
         className="mt-[5px] rounded-[16px] sm:mt-[15px] md:mt-[25px] h-[52px] mb-14"
       >
         <span className="text-[16px] sm:text-[20px]">Agendar um bate-papo</span>
-        <ArrowRight style={{ width: "24px", height: "24px", color: "black" }} />
+        <ArrowRight style={{ width: "24px", height: "24px", color: "white" }} />
       </Button>
     </div>
   );
