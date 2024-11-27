@@ -1,5 +1,5 @@
-import { LogoHeader } from "../ui/logo";
-import { Button } from "../ui/shadcn/button";
+import { LogoHeader } from "./logo-header";
+import { Button } from "../../ui/shadcn/button";
 import { ArrowRight } from "lucide-react";
 import { HeaderNavbar } from "./header-navbar";
 

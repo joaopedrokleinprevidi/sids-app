@@ -21,6 +21,12 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         azulClaro:
           "flex items-center gap-x-[10px] px-[10px] py-[8px] bg-pAzulClaro rounded-[10px] hover:bg-pAzulClaroHover",
+        azulEscuro:
+          "flex items-center gap-x-[10px] px-[10px] py-[8px] font-dmSans font-normal bg-pAzulProfundo text-white rounded-[10px] hover:bg-pAzulProfundoHover",
+        branco:
+          "flex items-center gap-x-[10px] px-[10px] py-[8px] font-dmSans font-normal text-black rounded-[10px] bg-white hover:bg-pBranco",
+        preto:
+          "flex items-center gap-x-[10px] px-[10px] py-[8px] font-dmSans font-normal text-white rounded-[10px] bg-pBlack hover:bg-pBlackHover",
       },
       size: {
         default: "h-9 px-4 py-2",

@@ -1,10 +1,11 @@
-import { Menu } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "../ui/shadcn/dropdown-menu";
+} from "@/components/ui/shadcn/dropdown-menu";
+import { Menu } from "lucide-react";
+
 import Link from "next/link";
 
 const navbarOptions = [

@@ -1,18 +1,19 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Space_Grotesk, Inter, DM_Sans, Poppins } from "next/font/google";
+import "remixicon/fonts/remixicon.css";
 
 const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"], // Todos os pesos
-  style: ["normal", "italic"], // Inclui normal e itálico
-  variable: "--font-poppins", // Cria uma variável CSS para uso
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  variable: "--font-poppins",
 });
 
 const dmSans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-dm-sans",
-  weight: ["400", "500", "700"],
+  weight: ["200", "300", "400", "500", "700"],
   style: ["normal", "italic"],
   display: "swap",
 });
@@ -47,7 +48,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-BR"
-      className={`${inter.variable} ${spaceGrotesk.variable} ${dmSans.variable} ${poppins.variable}`}
+      className={`${inter.variable} ${spaceGrotesk.variable} ${dmSans.variable} ${poppins.variable} w-screen min-h-screen bg-pBackground overflow-x-hidden`}
     >
       <body className="antialiased">{children}</body>
     </html>
