@@ -5,7 +5,7 @@ import { Hero } from "@/components/layout/hero";
 import { HowWeWorkAtSIDS } from "@/components/layout/how-we-work-at-SIDS";
 import { Services } from "@/components/layout/services";
 import { SuccessCases } from "@/components/layout/success-cases";
-import { FixedButtonToContact } from "@/components/ui/fixedButtonToContact";
+// import { FixedButtonToContact } from "@/components/ui/fixedButtonToContact";
 
 export default function Page() {
   return (
@@ -17,7 +17,7 @@ export default function Page() {
         <SuccessCases />
         <HowWeWorkAtSIDS />
         <FreeConsultancy />
-        <FixedButtonToContact />
+        {/* <FixedButtonToContact /> */}
       </main>
 
       <Footer />
